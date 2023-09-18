@@ -6,7 +6,7 @@ Ragnar is a command-line interface (CLI) tool written in Rust, designed to gener
 
 ## Why is a private key important in Bitcoin?
 
-Private/public keys are the foundation of Bitcoin technology. Your public key basically represents your wallet address, and your private key is used to make transactiosn on it. So having an easy way to summon forth your private key with simple 12 words can be pretty powerful.
+Private/public keys are the foundation of Bitcoin technology. Your public key basically represents your wallet address, and your private key is used to make transactions on it by creating digital signatures for your transactions. So having an easy way to summon forth your private key with simple 12 words can be pretty powerful.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/s22eJ1eVLTU/0.jpg)](http://www.youtube.com/watch?v=s22eJ1eVLTU "Signing with public/private keys")
 
