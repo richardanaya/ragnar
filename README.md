@@ -8,6 +8,8 @@ Ragnar is a command-line interface (CLI) tool written in Rust, designed to gener
 
 Private/public keys are the foundation of Bitcoin technology. Your public key basically represents your wallet address, and your private key is used to make transactiosn on it. So having an easy way to summon forth your private key with simple 12 words can be pretty powerful.
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/s22eJ1eVLTU/0.jpg)](http://www.youtube.com/watch?v=s22eJ1eVLTU "Signing with public/private keys")
+
 ## BIP-39: A High-Level Overview
 
 [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) (Bitcoin Improvement Proposal 39) is a protocol that describes the implementation of a mnemonic sentence — a group of easily readable words—to serve as a back-up or seed for deterministic wallets. These mnemonics are built up from a special list of 2048 words, so you can't just use any words. These mnemonic sentences are mathematically related to your wallet's private key, providing a human-readable format that is easier to write down or memorize than a raw binary or hexadecimal string.
