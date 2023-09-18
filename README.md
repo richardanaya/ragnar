@@ -60,6 +60,10 @@ Can give you additional info.
 
 Many wallets support just the words themselves.
 
+## Can this be used for other things than Bitcoin?
+
+Yes, many crypto currencies use similar keys, but it's beyond the scope of this project.
+
 ## Contributing
 
 Feel free to contribute to Ragnar by submitting pull requests or reporting bugs and suggestions as GitHub issues.
