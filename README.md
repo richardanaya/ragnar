@@ -22,17 +22,24 @@ cargo install ragnar
 
 To generate a Bitcoin private key, execute the Ragnar CLI and pass your 12-word mnemonic phrase as an argument:
 
-\`\`\`bash
+```bash
 ragnar -m "word1 word2 word3 ... word12"
-\`\`\`
+```
 
 The CLI will then output the corresponding Bitcoin private key, calculated based on the BIP-39 specification.
 
-\`\`\`bash
+```bash
 ragnar
-\`\`\`
+```
 
 Will simply generate random 12 words and a private key. If you ever need to generate the private key, you'll have to remember the 12 words and put them in using the above method.
+
+
+```bash
+ragnar --help
+```
+
+Can give you additional info.
 
 ## Contributing
 
