@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ragnar is a command-line interface (CLI) tool written in Rust, designed to generate secure Bitcoin private keys from 12-word mnemonic phrases.
+Ragnar is a command-line interface (CLI) tool written in Rust, designed to generate secure Bitcoin private keys from 12-word mnemonic phrases. This codebase was created to easily show how this is done in the most minimal way possible.
 
 ## BIP-39: A High-Level Overview
 
