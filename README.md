@@ -41,7 +41,7 @@ ragnar --help
 
 Can give you additional info.
 
-## Using in a wallet
+## Using the Private Key in a Wallet
 
 ### Electrum
 
