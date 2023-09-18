@@ -12,7 +12,7 @@ Private/public keys are the foundation of Bitcoin technology. Your public key ba
 
 ## BIP-39: A High-Level Overview
 
-[BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) (Bitcoin Improvement Proposal 39) is a protocol that describes the implementation of a mnemonic sentence — a group of easily readable words—to serve as a back-up or seed for deterministic wallets. These mnemonics are built up from a special list of 2048 words, so you can't just use any words and it's important they are randomly chosen ( not just hand picked by your favorite words ;) ). These mnemonic sentences are mathematically related to your wallet's private key, providing a human-readable format that is easier to write down or memorize than a raw binary or hexadecimal string.
+[BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) (Bitcoin Improvement Proposal 39) is a protocol that describes the implementation of a mnemonic sentence — a group of easily readable words—to serve as a back-up or seed for deterministic wallets. These mnemonics are built up from a special list of 2048 words, so you can't just use any words and it's important they are randomly chosen ( not just hand picked by your favorite words ). These mnemonic sentences are mathematically related to your wallet's private key, providing a human-readable format that is easier to write down or memorize than a raw binary or hexadecimal string.
 
 ## Why 12 Words?
 
