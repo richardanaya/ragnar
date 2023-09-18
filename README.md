@@ -48,6 +48,7 @@ Can give you additional info.
 1. When creating a wallet select "standard wallet"
 2. Select "Use a master key"
 3. Copy and paste the private key into the next box and hit next.
+4. You can now receive and send bitcoin.
 
 ## Contributing
 
