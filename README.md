@@ -6,11 +6,11 @@ Ragnar is a command-line interface (CLI) tool written in Rust, designed to gener
 
 ## BIP-39: A High-Level Overview
 
-[BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) (Bitcoin Improvement Proposal 39) is a protocol that describes the implementation of a mnemonic code or mnemonic sentence—a group of easily readable words—to serve as a back-up or seed for deterministic wallets. These mnemonic sentences are mathematically related to your wallet's private key, providing a human-readable format that is easier to write down or memorize than a raw binary or hexadecimal string.
+[BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) (Bitcoin Improvement Proposal 39) is a protocol that describes the implementation of a mnemonic sentence — a group of easily readable words—to serve as a back-up or seed for deterministic wallets. These mnemonics are built up from a special list of 2048 words, so you can't just use any words. These mnemonic sentences are mathematically related to your wallet's private key, providing a human-readable format that is easier to write down or memorize than a raw binary or hexadecimal string.
 
 ## Why 12 Words?
 
-A 12-word mnemonic of BIP-39 generates 128 bits of entropy. The security level provided by 128 bits of entropy is considered to be strong and adequate for most cryptographic purposes. To put the security level into perspective: using the most advanced supercomputers, it would take longer than the age of the universe to brute-force a 128-bit entropy.
+A 12-word mnemonic of BIP-39 generates 128 bits of entropy. If you have 2048 possible words to choose from, you have 2048^12 combinations, or in another term 2^132 (138-bits). The security level provided by 128 bits of entropy is considered to be strong and adequate for most cryptographic purposes. To put the security level into perspective: using the most advanced supercomputers, it would take longer than the age of the universe to brute-force a 128-bit entropy.
 
 ## Installation
 
