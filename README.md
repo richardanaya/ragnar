@@ -10,12 +10,7 @@ Ragnar is a command-line interface (CLI) tool written in Rust, designed to gener
 
 ## Why 12 Words?
 
-A 12-word mnemonic generates 128 bits of entropy, plus a 4-bit checksum, resulting in a 132-bit length. The security level provided by 128 bits of entropy is considered to be strong and adequate for most cryptographic purposes.
-
-### Computational Infeasibility of Breaking 128-bit Entropy
-
-To put the security level into perspective: using the most advanced supercomputers, it would take longer than the age of the universe to brute-force a 128-bit entropy. This level of entropy makes your mnemonic phrase highly resistant to brute-force and dictionary attacks, thereby ensuring the secure storage and management of your Bitcoin assets.
-
+A 12-word mnemonic of BIP-39 generates 128 bits of entropy. The security level provided by 128 bits of entropy is considered to be strong and adequate for most cryptographic purposes. To put the security level into perspective: using the most advanced supercomputers, it would take longer than the age of the universe to brute-force a 128-bit entropy.
 
 ## Installation
 
