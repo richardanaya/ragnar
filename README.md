@@ -26,7 +26,7 @@ To generate a Bitcoin private key, execute the Ragnar CLI and pass your 12-word 
 ragnar -m "word1 word2 word3 ... word12"
 ```
 
-The CLI will then output the corresponding Bitcoin private key, calculated based on the BIP-39 specification.
+The CLI will then output the corresponding Bitcoin private key (starts with letters "xprv"), calculated based on the BIP-39 specification.
 
 ```bash
 ragnar
@@ -40,6 +40,14 @@ ragnar --help
 ```
 
 Can give you additional info.
+
+## Using in a wallet
+
+### Electrum
+
+1. When creating a wallet select "standard wallet"
+2. Select "Use a master key"
+3. Copy and paste the private key into the next box and hit next.
 
 ## Contributing
 
