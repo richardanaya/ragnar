@@ -4,6 +4,9 @@
 
 Ragnar is a command-line interface (CLI) tool written in Rust, designed to generate secure Bitcoin private keys from 12-word mnemonic phrases. This codebase was created to easily show how this is done in the most minimal way possible.
 
+<img width="1069" alt="Screenshot 2023-09-18 at 8 31 07 AM" src="https://github.com/richardanaya/ragnar/assets/294042/980b663f-eb7b-4ea9-9f7c-a24b971e4ab1">
+
+
 ## Why is a private key important in Bitcoin?
 
 Private/public keys are the foundation of Bitcoin technology. Your public key basically represents your wallet address, and your private key is used to make transactions on it by creating digital signatures for your transactions. So having an easy way to summon forth your private key with simple 12 words can be pretty powerful.
