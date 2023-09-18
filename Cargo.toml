@@ -1,0 +1,16 @@
+[package]
+name = "ragnar"
+version = "0.1.0"
+authors = ["Richard Anaya"]
+edition = "2021"
+description = "A command line tool for generating BIP39 mnemonic phrases and deriving BIP32 HD wallets."
+license = "MIT"
+repository = "https://github.com/richardanaya/ragnar"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bip32 = { version = "0.5.1", features = ["bip39"] }
+bip39 = { version = "2.0.0", features = ["rand_core"] }
+clap = { version= "4.4.3", features = ["derive"] }
+rand = "0.8.5"
